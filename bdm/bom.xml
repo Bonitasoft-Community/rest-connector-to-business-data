@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.9.1">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.TodoBusinessObject">
+            <fields>
+                <field type="STRING" length="255" name="attributeTitle" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="attributeCompleted" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
